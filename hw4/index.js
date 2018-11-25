@@ -43,7 +43,6 @@ function disableLoadModelButtons() {
 }
 
 function doPredict(predict) {
-  const book_index = { 0:Emma, 1:Macbeth, 2:Moby-Dick };
   const textField = document.getElementById('text-entry');
   const result = predict(textField.value);
   score_string = "Class scores: ";
