@@ -8,11 +8,11 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'If I loved you less, I might be able to talk about it more.',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'I dare do all that may become a man; Who dares do more is none.',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'The four whales slain that evening had died wide apart; one, far to windward; one, less distant, to leeward; one ahead; one astern.'      
 };
 
 function status(statusText) {
