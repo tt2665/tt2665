@@ -8,9 +8,9 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'If I loved you less, I might be able to talk about it more.',
+      'Were I to fall in love, indeed, it would be a different thing; but I have never been in love; it is not my way, or my nature; and I do not think I ever shall.',
   'example2':
-      'I dare do all that may become a man; Who dares do more is none.',
+      'Life is a tale told by an idiot, full of sound and fury, signifying nothing.',
   'example3':
       'The four whales slain that evening had died wide apart; one, far to windward; one, less distant, to leeward; one ahead; one astern.'      
 };
