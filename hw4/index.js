@@ -16,11 +16,11 @@ const examples = {
 };
 
 const book_index = {
-  '0':
+  0:
       'Emma',
-  '1':
+  1:
       'Macbeth',
-  '2':
+  2:
       'Moby-Dick'
 };
 
