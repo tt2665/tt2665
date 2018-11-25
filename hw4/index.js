@@ -8,9 +8,9 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'I am going to take a heroine whom no one but myself will much like.',
+      'Were I to fall in love, indeed, it would be a different thing; but I have never been in love ; it is not my way, or my nature; and I do not think I ever shall.',
   'example2':
-      'Double, double, toil and trouble; Fire burn, and cauldron bubble!',
+      'Things without all remedy should be without regard: what's done is done.',
   'example3':
       'The four whales slain that evening had died wide apart; one, far to windward; one, less distant, to leeward; one ahead; one astern.'      
 };
