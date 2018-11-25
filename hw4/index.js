@@ -16,9 +16,9 @@ const examples = {
 };
 
 const book_index = {
-  0: 'Emma',
-  1: 'Macbeth',
-  2: 'Moby-Dick'
+  0: Emma,
+  1: Macbeth,
+  2: Moby-Dick
 };
 
 function status(statusText) {
