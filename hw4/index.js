@@ -46,6 +46,7 @@ function doPredict(predict) {
   const textField = document.getElementById('text-entry');
   const result = predict(textField.value);
   score_string = "Class scores: ";
+  const book_index = { 0:'Emma', 1:'Macbeth', 2:'Moby-Dick' };
   for (var x in result.score) {
     score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
   }
