@@ -48,7 +48,7 @@ function doPredict(predict) {
   score_string = "Class scores: ";
   const book_index = { 0:'Emma', 1:'Macbeth', 2:'Moby-Dick' };
   for (var x in result.score) {
-    score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
+    score_string += book_index[x] + " ->  " + result.score[x].toFixed(3) + ", "
   }
   //console.log(score_string);
   status(
