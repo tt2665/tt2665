@@ -15,15 +15,6 @@ const examples = {
       'The four whales slain that evening had died wide apart; one, far to windward; one, less distant, to leeward; one ahead; one astern.'      
 };
 
-const book_index = {
-  0:
-      'Emma',
-  1:
-      'Macbeth',
-  2:
-      'Moby-Dick'
-};
-
 function status(statusText) {
   console.log(statusText);
   document.getElementById('status').textContent = statusText;
@@ -52,6 +43,7 @@ function disableLoadModelButtons() {
 }
 
 function doPredict(predict) {
+  var book_index = { 0:Emma, 1:Macbeth, 2:Moby-Dick };
   const textField = document.getElementById('text-entry');
   const result = predict(textField.value);
   score_string = "Class scores: ";
